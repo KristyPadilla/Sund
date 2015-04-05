@@ -1,0 +1,82 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-kntu0i');
+	src:url('fonts/icomoon.eot?#iefix-kntu0i') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-kntu0i') format('woff'),
+		url('fonts/icomoon.ttf?-kntu0i') format('truetype'),
+		url('fonts/icomoon.svg?-kntu0i#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-book:before { /*  recetas */
+	content: "\e91f";
+    position: absolute;
+     font-size: 400px;
+    padding: 30px 50px;
+    color: #a3a3a3;
+}
+
+.icon-address-book:before {/*  datos de perfil */
+	content: "\e944";
+    position: absolute;
+     font-size: 400px;
+    padding: 30px 50px;
+    color: #a3a3a3;
+}
+
+.icon-gift:before {/*  logros */
+	content: "\e99f";
+    position: absolute;
+     font-size: 400px;
+    padding: 30px 50px;
+    color: #a3a3a3;
+}
+
+.icon-spoon-knife:before {/*  menu */
+	content: "\e9a3";
+    position: absolute;
+     font-size: 400px;
+    padding: 30px 50px;
+    color: #a3a3a3;
+}
+
+.icon-leaf:before {/*  hoja */
+	content: "\e9a4";
+    position: absolute;
+     font-size: 400px;
+    padding: 30px 50px;
+    color: #a3a3a3;
+}
+
+
+.icon-accessibility:before {/*  ejercicio */
+	content: "\e9b2";
+    position: absolute;
+     font-size: 400px;
+    padding: 30px 50px;
+    color: #a3a3a3;
+}
+
+.icon-heart:before {/*  corazon */
+	content: "\e9da";
+    position: absolute;
+     font-size: 400px;
+    padding: 30px 50px;
+    color: #a3a3a3;
+}
+

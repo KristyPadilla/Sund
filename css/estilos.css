@@ -1,0 +1,478 @@
+/*Inicio */
+body{
+background: #303030;}
+#portada{
+width: 100%;
+height: 100%;
+background-image: url("../img/inicio/portada.jpg");
+background-size: cover;
+
+display: block;
+}
+.absolute{
+	width: 100%;
+	height:100%;
+	position: relative;
+}
+
+.secciones{
+width: 100%;
+height:70%;
+position: relative;
+}
+
+.titulo_uno{
+width: 100%;
+height: 30%;
+background: #B6B52E;
+font-size: 40px;
+color: white;
+
+}
+
+.titulo_dos{
+width: 100%;
+height: 30%;
+background: #D5E1D6;
+font-size: 40px;
+color:#257A6A;
+}
+
+p{
+text-align: center;
+line-height: 200%;
+font-family: 'Quicksand', sans-serif;
+font-weight: 300;
+letter-spacing: 1;
+}
+
+.imagenes{
+width: 100%;
+height: 70%;
+background-size: cover;
+background-position: center center;
+}
+.uno{
+	background-image: url("../img/inicio/s_uno.jpg")
+}
+.dos{
+	background-image: url("../img/inicio/s_dos.jpg")
+}
+.tres{
+	background-image: url("../img/inicio/s_tres.jpg")
+}
+.cuatro{
+	background-image: url("../img/inicio/s_cuatro.jpg")
+}
+
+
+/*.imagen:hover{
+    background: black;
+    width: 100%;
+    height: 80%;
+    opacity: .5;
+}*/
+
+/*Formulario inicio sesión */
+#contenedor_formulario{
+border-radius: 7%;
+background: #698846;
+position: absolute;
+z-index: 100;
+right: 10%;
+top: 30%;
+display: inline-block;
+}
+
+
+/*Campos son los input text */
+.campos{
+	display: block;
+width: 260px;
+height: 35px;
+background: white;
+margin: 30px;
+
+border-radius: 10px;
+}
+
+#boton_registro{
+background: #257A6A;
+border-radius: 30px;
+color: white;
+width: 260px;
+height: 40px;
+margin: 30px;
+}
+
+#seccion_seis{
+	position: relative;
+	background: #303030;
+	width: 100%;
+	height: 250px;
+}
+#seccion_seis ul{
+	position: absolute;
+	bottom: 0;
+	right: 5%;
+    
+}
+#seccion_seis ul li{
+	list-style: none;
+	display: inline;
+
+}
+#seccion_seis ul li a{
+	color: white;
+	text-decoration: none;
+	font-style: none;
+	display: inline-block;
+	padding: 20px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+/* cosas de las secciones*/
+
+.contacto{
+	background-image: url("../img/inicio/contacto.jpg");
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	}
+.conocenos{
+	background-image: url("../img/inicio/conocenos.jpg");
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+
+}
+.titulo_conocenos, .titulo_condiciones{
+	width: 100%;
+	height: 10%;
+	background: #B6B52E;
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	line-height: 200%;
+	}
+.warp{
+	width: 80%;
+	margin: 0 auto;
+
+}
+p.p_conocenos, .condiciones p{
+	line-height: 200%;
+  font-family: 'Quicksand', sans-serif;
+   font-weight: 500; 
+  letter-spacing: 1;
+}
+.conocenos h2{
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+.cuadro_contacto{
+	width: 20%;
+	float: right;
+	margin-right:20%;
+    margin-top: 5%;
+}
+.contacto h2{
+	  text-align: center;
+  font-family: 'Quicksand';
+  color: black;
+}
+.contacto form {
+	
+	margin: 0 auto;
+	width: 100%;
+
+}
+.contacto form input {
+	border-radius: 30px;
+	float: right;
+	width: 100%;
+	margin: 10px;
+	text-align: center;
+}
+.contacto form .boton{
+background: #257A6A;
+color: white;
+}
+.condiciones{
+	background-image: url("../img/inicio/condiciones.png");
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+.condiciones p{
+	margin:5%;
+}
+  .mensaje_contacto{
+  border-radius: 10px;
+  float: right;
+  width: 100%;
+  margin: 20px 10px;
+  text-align: center;
+  }
+/*ultimos cambios*/
+
+
+.bienvenida{
+    background: #a4c803;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    line-height: 350%;
+    color: aliceblue;
+     box-shadow: 0px 5px 35px black;
+    position: relative;
+    z-index: 99;
+}
+.warpdos{
+width:90%;
+margin: 0 auto;
+overflow-y: hidden;
+white-space: nowrap;
+overflow-x: auto;
+
+}
+.nav_bienvenida{
+	list-style: none;
+    width: 100%;
+    position: relative;
+    
+}
+.nav_bienvenida a{
+	display: inline-block;
+    margin: 30px 1.5% 0px 1.5%;
+    position: relative;
+    width: 500px;
+    height: 460px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+ 
+}
+
+
+.cuadros_bienvenida {
+    display:block;
+    width: 500px;
+    height: 460px;
+    border-radius: 5px;
+    background: #e0e0e0;
+    position: relative;
+}
+.nav_bienvenida a:first-child{
+     margin: 50px 1.5% 0px 0px;
+}
+
+.nav_bienvenida a:hover{
+ box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+.nuevo_registro_imagen{
+	background-image: url("../img/inicio/nuevo_registro.jpg");
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+.registro_usuario {
+    width:60%;
+    margin: 10% auto;
+    border-radius: 5px;
+    height: 60%;
+    box-sizing: border-box;
+    padding: 2.5%;
+    background: #007c26;
+}
+.registro_usuario input{
+text-align: center;
+margin: 3% auto;
+display: block;
+width: 60%;
+}
+
+.etiquetas{
+	display: block;
+	text-align: center;
+	color: white;
+	
+}
+.registro_usuario input.boton{
+background-color: #015619;
+width: 35%;
+color: white;
+border: 2px solid #014c16;
+}
+    
+
+.etiquetas_datos{
+	width: 115px;
+	color: #722f2a;
+	background-color: #ac4b3a;
+	border: none;
+	margin: 60px 30px;
+	
+}
+.portada_imc{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	background-image: url("../img/inicio/perfil.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+.diagnostico{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/inicio/diagnostico.jpg");
+    background-size: cover;
+    background-position: center center;
+
+}
+.diagnostico h1{
+	color: white;
+	padding: 30px;
+}
+.diagnostico input{
+	border: none;
+	background:none;
+	color: white;
+	font-size: 20px;
+	width: 100%;
+	padding: 30px;
+}
+ .titulo_dos_perfil{
+        background: #e29e51;
+    }
+    .botones{
+        background: #f4f4f2;
+        width: 30%;
+        height: 400px;
+        margin: 1%;
+        border: none;
+        position: relative;
+         background-size: 60%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    }
+  .sedentario{
+    background-image: url("../img/inicio/sedentario.png");
+    
+  }
+  .activo{
+    background-image: url("../img/inicio/activo.png");
+    
+  }
+  .muy_activo{
+    background-image: url("../img/inicio/muy_activo.png");
+ 
+
+  }
+
+  .resultados{
+    background: #474747;
+    overflow: auto;
+  }
+   .resultados h2, .resultados label, .sinfondo{
+    margin:10px 0px;
+    display: block;
+    color: white;
+    border: none;
+    background: none;
+   }
+   #guardado_datos{
+    background:#d6d6d6; 
+    width:110px;
+    border-top: none;
+    border-left: none;
+    border-bottom: 5px solid #6d6d6d;
+    border-right: 5px solid #6d6d6d;
+   }
+
+    nav.menu {
+   	width: 100%;
+   	height: 200px;
+   	background: #474747;
+   	position: relative;
+   }
+
+   #foto_de_perfil{
+   	
+   	background: white;
+     width: 120px;
+  	height: 150px;
+ 	 position: absolute;
+  	right: 25px;
+  	top: 2%;
+   }
+   #logo{
+   	background-image: url("../img/inicio/logo.png");
+   	background-size: 120px 150px;
+   	background-position: center center;
+     width: 120px;
+  	height: 150px;
+ 	 top: 2%;
+ 	 left: 50%;
+ 	 margin-left: -60px;
+ 	 position: absolute;
+   }
+   
+   .menu ul li{
+   	
+   	display: inline;
+   	list-style: none;
+
+   }
+   .menu a{
+   	display: block;
+   	padding: 4px;
+   	width: 130px;
+   	height: 20px;
+   	text-decoration: none;
+   	background: #d6d6d6;
+   	color: white;
+   }
+
+	.menu li:hover > ul{
+    display: block;
+    
+   
+}
+	.menu ul ul {
+    position: absolute;
+    display: none;
+    top: 10px;
+    left: 20px;
+	}
+	.menu  ul ul ul{
+    position: absolute;
+    display: none;
+    top: 84px;
+    left: 138px;
+	}
+	.menu li a:hover{
+		background: #6d6d6d;
+	}
+	#cuadros_menu{
+   	background-image: url("../img/inicio/menu.png");
+   	background-size: 70px 70px;
+   	background-position: center center;
+     width: 70px;
+  	height: 70px;
+ 	 top: 30px;
+ 	 left: 20px;
+ 	 
+ 	 position: absolute;
+   }
