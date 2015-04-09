@@ -1,6 +1,6 @@
 <nav class="menu">
 	<ul><li><figure id="cuadros_menu"></figure><ul class="visible">
-		<li><a href="">Registro de datos</a></li>
+		<li><a href="imc.php">Diagnóstico</a></li>
 		<li><a href="">Perfil</a></li>
 		<li><a href="">Dieta</a></li>
 		<li><a class="ejercicio" href="">Ejercicios</a> 
@@ -11,6 +11,7 @@
 			</ul></li>
 		<li><a href="">tips</a></li>
 		<li><a href="">recetas</a></li>
+        <li><a href="includes/cerrar_sesion.php">cerrar sesión</a></li>
 	</ul></li></ul>
 		<figure id="foto_de_perfil"></figure>
 		<figure id="logo"></figure>
