@@ -60,9 +60,9 @@ document.getElementById("Tcal").value=totalCal.toFixed(1)
     <div class="warp">
          <br/>
         <!--Agregamos un nuevo valor del tipo de cuerpo para poder ingresarlo a la base de datos. -->
-        <input class="botones" type="button" value="ectomorfo" onClick="cuerpo(55, 25, 20, ectomorfo)">
-        <input class="botones" type="button" value="mesomorfo" onClick="cuerpo(40, 30, 30, mesomorfo)">
-        <input class="botones" type="button" value="endomorfo" onClick="cuerpo(25, 40, 35, endomorfo)">
+        <input class="botones" type="button" value="ectomorfo" onClick="cuerpo(55, 25, 20, 'ectomorfo')">
+        <input class="botones" type="button" value="mesomorfo" onClick="cuerpo(40, 30, 30, 'mesomorfo')">
+        <input class="botones" type="button" value="endomorfo" onClick="cuerpo(25, 40, 35, 'endomorfo')">
 
     </div>
     <br/>
